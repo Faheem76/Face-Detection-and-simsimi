@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#16d4e6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="130dp"
+        android:text="Face Detection"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btton2"
+        android:id="@+id/btnLoad"
+        android:shadowRadius="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Photo"/>
+
+    <Button
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:id="@+id/btnDetectFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Face" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgview"/>
+
+</LinearLayout>
+
